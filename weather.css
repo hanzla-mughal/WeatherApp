@@ -1,0 +1,107 @@
+body {
+    background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
+    color: white;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  
+
+
+}
+ input {
+    border-radius: 20px;
+    border: none;
+    height: 40px;
+   width: 500px;
+   border-style: none;
+   outline: none;
+   
+}
+.input input{
+    margin-right: 20px;
+    padding-left: 15px;
+    font-size: 1rem;
+    font-weight: 400;
+     background: rgba(255,255,255,0.1);
+    color: white;
+   
+}
+.button button{
+    border-radius: 20px;
+    border: none;
+     height: 40px;
+   width: 50px;
+   cursor: pointer;
+   
+background: #0f3460;
+    color: white;
+}
+.div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap:10px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 30px auto;
+    width: 600px;
+}
+.data{
+    background: rgba(255,255,255,0.1);
+    border-radius: 20px;
+     padding: 10px;
+    margin: 15px auto;
+
+}
+.forecast{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255,255,255,0.1);
+    height: 7rem;
+     position: relative;
+     padding: 15px;
+    margin: 20px auto;
+    width: 100%;
+    border-radius: 20px;
+    gap: 10px;
+}
+.forecast-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ background: rgba(255,255,255,0.1);
+ border-radius: 20px;
+     padding: 10px;
+    margin: 15px auto;
+}
+.hourly{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255,255,255,0.1);
+    height: 7rem;
+     position: relative;
+     padding: 15px;
+    margin: 20px auto;
+    width: 100%;
+    border-radius: 20px;
+    gap: 10px;
+}
+.hour-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+ background: rgba(255,255,255,0.1);
+ border-radius: 20px;
+     padding: 10px;
+    margin: 15px auto;
+}
