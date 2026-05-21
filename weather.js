@@ -56,7 +56,7 @@
                 body.style.backgroundImage = `url('images/rain.jpg')`;
             }
             else {
-                body.style.background = "linear-gradient(135deg, #1a1a2e, #16213e, #0f3460)";
+                body.style.background = "linear-gradient(135deg, #23233a, #16213e, #0f3460)";
             }
 
             body.style.backgroundSize = "cover";
