@@ -1,6 +1,6 @@
 
 
-        const apiKey = "af42888a2dabef11d43d4486d590ebd8";
+        
 
         async function getWeather() {
 
@@ -8,7 +8,7 @@
 
             try {
 
-                let weather_api = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`
+                let weather_api = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`
                 let response = await fetch(weather_api);
                 let data = await response.json();
 
@@ -68,7 +68,7 @@
             let city = document.getElementById('city').value;
             let forecastDiv = document.getElementById('forecast');
             try {
-                let weather_api = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${apiKey}&units=metric`
+                let weather_api = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${API_KEY}&units=metric`
                 let response = await fetch(weather_api);
                 let data = await response.json();
                 for(let i=0;i<40;i+=8)
