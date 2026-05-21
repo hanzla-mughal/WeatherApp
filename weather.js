@@ -71,6 +71,7 @@
                 let weather_api = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${API_KEY}&units=metric`
                 let response = await fetch(weather_api);
                 let data = await response.json();
+                forecastDiv.innerHTML = ""; 
                 for(let i=0;i<40;i+=8)
             {
                 let day=data.list[i];
